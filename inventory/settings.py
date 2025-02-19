@@ -123,7 +123,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3001",
     "http://localhost:3000",
-    "http://ksurvey.org:8004"
+    "http://ksurvey.org:8004",
+    "https://baskt-neon.vercel.app",
 ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
